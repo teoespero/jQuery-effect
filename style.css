@@ -1,0 +1,14 @@
+.pDiv {
+	background: rgb(184, 237, 180);
+	float: left;
+	margin: auto;
+	padding: 15px;
+}
+
+.padded {
+	padding: 30px;
+}
+
+.btn-space {
+	margin: 10px;
+}
