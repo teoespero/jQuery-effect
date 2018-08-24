@@ -10,11 +10,22 @@
 //////////////////////////////////////////////////////////////////////
 
 
-$("#clickMe").click(function(){
-	$(".pDiv").fadeOut(1000, function(){
-		$(this).remove();
-	});
+$("#fadingEffect").click(function(){
+	$(".pDiv").fadeToggle(1000);
 });
+
+$("#SlideDown").click(function(){
+	$(".pDiv").slideDown(1000);
+});
+
+$("#SlideUp").click(function(){
+	$(".pDiv").slideUp(1000);
+});
+
+$("#SlideToggle").click(function(){
+	$(".pDiv").slideToggle(1000);
+});
+
 
 //////////////////////////////////////////////////////////////////////
 // 	EOF
